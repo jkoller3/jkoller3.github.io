@@ -1291,12 +1291,12 @@ li.active a.DLimg {
 	text-align: center;
 	border:1px solid black;
 	border-radius: 14%;
-	  box-shadow: 0 7px #999;
+	  box-shadow: 0 2px #999;
 }
 
 
 #introNextBTN:active {
-  box-shadow: 0 3px #666;
-  transform: translateY(4px);
+  box-shadow: 0 1px #666;
+  transform: translateY(1px);
 }
 

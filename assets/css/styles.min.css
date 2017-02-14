@@ -45,7 +45,7 @@ img {
 
 .glide__track {
     position: relative;
-    width: 100%;
+/*    width: 100%;*/
     height: 100%;
     list-style: none;
     -webkit-backface-visibility: hidden;

@@ -1281,6 +1281,8 @@ li.active a.DLimg {
     margin-right: 0;
 }
 
-
+#introNextBTN{
+	color:white;background-color:red;width:12.5%;margin:auto;
+}
 
 

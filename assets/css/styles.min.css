@@ -1282,7 +1282,12 @@ li.active a.DLimg {
 }
 
 #introNextBTN{
-	color:white;background-color:red;width:22.5%;margin:auto;
+	color:white;
+	background-color:red;
+	width:22.5%;
+	margin:auto;
+	padding: 6px;
+	text-align: center;
 }
 
 

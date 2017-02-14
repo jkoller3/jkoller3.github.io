@@ -23,7 +23,7 @@ $("#tobedownloaded").click(function (e) {
     //		});
     //		}
 });
-$("#swap").click(function (e) {
+$("#introNextBTN").click(function (e) {
     $("#intro").css("visibility", "hidden");
     $("#gameModal").css("visibility", "visible");
 });

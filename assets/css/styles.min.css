@@ -67,7 +67,6 @@ img {
 }
 
 .glide__slide {
-    width: 100%;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -81,22 +80,8 @@ img {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    -webkit-user-drag: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
 }
 
-.glide__arrows {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.glide__arrow {
-    cursor: pointer;
-}
 
 .glide__bullets {
     -webkit-touch-callout: none;

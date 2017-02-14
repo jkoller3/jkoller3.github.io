@@ -28,12 +28,13 @@ $("#swap").click(function (e) {
     $("#gameModal").css("visibility", "visible");
 });
 $("#carousel-close").click(function () {
-//    $("#gameModal").css("visibility", "hidden");
-    $("#gameModal").attr("style", "visibility:hidden;");
-    $("#intro").attr("style", "visibility:visible;");
+    $("#gameModal").css("visibility", "hidden");
+		$("#intro").css("visibility", "visible");
+
 });
 var carouselpage;
 $("#game-close").click(function () {
     $("#wallpaperModal").css("visibility", "hidden");
-    $("#gameModal").attr("style", "visibility:visible; padding-top: 73px; padding-bottom: 54px;");
+		$("#gameModal").css("visibility", "visible");
+//    $("#gameModal").attr("style", "visibility:visible; padding-top: 73px; padding-bottom: 54px;");
 });

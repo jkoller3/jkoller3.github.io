@@ -1284,10 +1284,11 @@ li.active a.DLimg {
 #introNextBTN{
 	color:white;
 	background-color:red;
-	width:14%;
+	width:22%;
 	padding:1px;
-	margin:auto;
-	text-align: left;
+	margin:13% auto;
+	text-align: center;
 }
+
 
 

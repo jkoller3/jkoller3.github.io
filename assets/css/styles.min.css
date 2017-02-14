@@ -1285,6 +1285,7 @@ li.active a.DLimg {
 	color:white;
 	background-color:red;
 	width:14%;
+	padding:1px;
 	margin:auto;
 	text-align: left;
 }

@@ -1253,7 +1253,7 @@ img {
     }
 }
 
-li.active a.DLimg {
+a.DLimg {
     visibility: hidden;
 }
 

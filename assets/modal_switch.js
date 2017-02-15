@@ -21,8 +21,10 @@ $("#introNextBTN").click(function (e) {
 });
 $(".DLimg").click(function (event) {
     wallpaper = $(this).parent().find("img").attr("src");
-		$("#instructions").css("visibility","show");
     $("#gameModal").css("visibility", "hidden"); //hide modal to show new modal
+//		$("#instructions").attr("style","padding-top: 52px;visibility:show;");
+//	alert($("#instructions").text());
+			$("#instructions").css("visibility","visible");
 		$(".modal-iframe").css("overflow","scroll"); //allows scrolling. should be adjusted according to current view.
 	
 //    $("#wallpaperModal").attr("style", "visibility:show; padding-top: 73px; padding-bottom: 54px;");
@@ -34,6 +36,15 @@ $("#carousel-close").click(function () {
     $("#gameModal").css("visibility", "hidden");
 		$("#intro").css("visibility", "visible");
 });
+$("#instructions-close").click(function () {
+    $("#instructions").css("visibility", "hidden");
+		$("#gameModal").css("visibility", "visible");
+});
+
+$("#gotitBTN").click(function(){
+	
+});
+
 var carouselpage;
 $("#game-close").click(function () {
     $("#wallpaperModal").css("visibility", "hidden");

@@ -27,7 +27,7 @@ $(".DLimg").click(function (event) {
 //		$(".modal-close").css("visibility","visible");
 //	alert($("#instructions").text());
 		$("#instructions").css("visibility","visible");
-//		$(".modal-iframe").css("overflow","scroll"); //allows scrolling. should be adjusted according to current view.
+		$("#instruction").css("overflow","scroll"); //allows scrolling. should be adjusted according to current view.
 //    alert("Tap and hold on the image to download the wallpaper!");
 });
 $("#carousel-close").click(function () {

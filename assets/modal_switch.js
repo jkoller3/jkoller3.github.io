@@ -14,6 +14,7 @@ $("#tobedownloaded").click(function (e) {
     //			}
     //		});
     //		}
+	//waiting on backend implementation here 
 });
 $("#introNextBTN").click(function (e) {
     $("#intro").css("visibility", "hidden");
@@ -24,13 +25,9 @@ $(".DLimg").click(function (event) {
 		wallpaper = $(this).parent().find("img").attr("src");
     $("#gameModal").css("visibility", "hidden"); //hide modal to show new modal
 		$("#instructions").attr("style","padding-top:52px;padding-bottom: 54px;visibility:show;");
-//		$(".modal-header").css("visibility","visible");
-//		$(".modal-close").css("visibility","visible");
-//	alert($("#instructions").text());
 		$("#instructions").css("visibility","visible");
 		$(".modal").css("overflow","scroll"); //allows scrolling. should be adjusted according to current view.
 		$("li.active a.DLimg").css("visibility","hidden");	
-//    alert("Tap and hold on the image to download the wallpaper!");
 });
 $("#carousel-close").click(function () {
     $("#gameModal").css("visibility", "hidden");
@@ -41,14 +38,13 @@ $("#instructions-close").click(function () {
 		$("#gameModal").css("visibility", "visible");
 		$("li.active a.DLimg").css("visibility","visible");
 		$("section").css("overflow","hidden");
-//		$(".modal-header").css("visibility","visible");
 });
 
 $("#gotitBTN").click(function(){
 		$("#instructions").css("visibility","hidden");
     $("#wallpaperModal").attr("style", "visibility:visible; padding-top: 73px; padding-bottom: 54px;");
     $("#tobedownloaded").attr("src", wallpaper);
-    incrementScoreVar++; //<- just for readibility.
+    incrementScoreVar++; //<- This is just for readibility. This is when the user agrees to download the image; we just trust that they do 
 });
 
 var carouselpage;

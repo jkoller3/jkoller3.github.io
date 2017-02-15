@@ -46,7 +46,7 @@ $("#gotitBTN").click(function(){
 
 var carouselpage;
 $("#game-close").click(function () {
-    $("#wallpaperModal").css("visibility", "hidden");
+    $("#wallpaperModal").attr("style", "visibility:hidden; padding-top: 73px; padding-bottom: 54px;");
 		$("#gameModal").css("visibility", "visible");
 //    $("#gameModal").attr("style", "visibility:visible; padding-top: 73px; padding-bottom: 54px;");
 });

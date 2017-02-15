@@ -22,10 +22,12 @@ $("#introNextBTN").click(function (e) {
 $(".DLimg").click(function (event) { 
 		wallpaper = $(this).parent().find("img").attr("src");
     $("#gameModal").css("visibility", "hidden"); //hide modal to show new modal
-//		$("#instructions").attr("style","padding-top: 52px;visibility:show;");
+		$("#instructions").attr("style","padding-top:52px;padding-bottom: 54px;visibility:show;");
+//		$(".modal-header").css("visibility","visible");
+//		$(".modal-close").css("visibility","visible");
 //	alert($("#instructions").text());
-			$("#instructions").css("visibility","visible");
-		$(".modal-iframe").css("overflow","scroll"); //allows scrolling. should be adjusted according to current view.
+		$("#instructions").css("visibility","visible");
+//		$(".modal-iframe").css("overflow","scroll"); //allows scrolling. should be adjusted according to current view.
 //    alert("Tap and hold on the image to download the wallpaper!");
 });
 $("#carousel-close").click(function () {
@@ -35,6 +37,7 @@ $("#carousel-close").click(function () {
 $("#instructions-close").click(function () {
     $("#instructions").css("visibility", "hidden");
 		$("#gameModal").css("visibility", "visible");
+//		$(".modal-header").css("visibility","visible");
 });
 
 $("#gotitBTN").click(function(){

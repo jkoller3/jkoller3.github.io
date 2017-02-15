@@ -660,6 +660,7 @@ button.modal-direction {
 
 .modal-header {
     position: fixed;
+/*	overflow:hidden !important;*/
     top: -10px;
     right: 0;
     left: 0;

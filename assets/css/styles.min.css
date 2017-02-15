@@ -157,6 +157,11 @@ button::-moz-focus-inner {
 #gameModal {
     visibility: hidden;
 }
+#instructions {
+    visibility: hidden;
+/*		overflow: scroll!;*/
+}
+
 
 .alert {
     position: relative;
@@ -1300,3 +1305,19 @@ li.active a.DLimg {
   transform: translateY(1px);
 }
 
+#gotitBTN{
+	color:white;
+	background-color:red;
+	width: 11%;
+	padding:5% !important;
+	margin:13% auto;
+	text-align: center;
+	border:1px solid black;
+	border-radius: 14%;
+	  box-shadow: 0 2px #999;
+}
+
+#gotitBTN:active{
+	box-shadow: 0 1px #666;
+  transform: translateY(1px);
+}

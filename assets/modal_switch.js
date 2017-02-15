@@ -19,8 +19,8 @@ $("#tobedownloaded").click(function (e) {
 $("#introNextBTN").click(function (e) {
 	$("#intro").css("visibility", "hidden");
 	$("#gameModal").css("visibility", "visible");
-//	$("li.active a.DLimg").css("visibility", "visible");
-	$(".bg").css("visibility", "visible");
+	$("li a.DLimg").css("visibility", "visible");
+//	$(".bg").css("visibility", "visible");
 });
 $(".DLimg").click(function (event) {
 	wallpaper = $(this).parent().find("img").attr("src");
@@ -28,8 +28,8 @@ $(".DLimg").click(function (event) {
 	$("#instructions").attr("style", "padding-top:52px;padding-bottom: 54px;visibility:show;");
 	$("#instructions").css("visibility", "visible");
 	$(".modal").css("overflow", "scroll"); //allows scrolling. should be adjusted according to current view.
-//	$("li.active a.DLimg").css("visibility", "hidden");
-	$(".bg").css("visibility", "hidden");
+	$("li a.DLimg").css("visibility", "hidden");
+//	$(".bg").css("visibility", "hidden");
 });
 $("#carousel-close").click(function () {
 	$("#gameModal").css("visibility", "hidden");
@@ -38,8 +38,8 @@ $("#carousel-close").click(function () {
 $("#instructions-close").click(function () {
 	$("#instructions").css("visibility", "hidden");
 	$("#gameModal").css("visibility", "visible");
-//	$("li.active li.pre a.DLimg").css("visibility", "visible");
-	$(".bg").css("visibility", "visible");
+	$("li a.DLimg").css("visibility", "visible");
+//	$(".bg").css("visibility", "visible");
 	$("section").css("overflow", "hidden");
 });
 $("#gotitBTN").click(function () {
@@ -52,8 +52,8 @@ var carouselpage;
 $("#game-close").click(function () {
 	$("#wallpaperModal").attr("style", "visibility:hidden; padding-top: 73px; padding-bottom: 54px;");
 	$("#gameModal").css("visibility", "visible");
-//	$("li.active li.pre a.DLimg").css("visibility", "visible");
-	$(".bg").css("visibility", "visible");
+	$("li a.DLimg").css("visibility", "visible");
+//	$(".bg").css("visibility", "visible");
 	$("section").css("overflow", "hidden");
 	//    $("#gameModal").attr("style", "visibility:visible; padding-top: 73px; padding-bottom: 54px;");
 });

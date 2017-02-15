@@ -55,6 +55,6 @@ $("#game-close").click(function () {
     $("#wallpaperModal").attr("style", "visibility:hidden; padding-top: 73px; padding-bottom: 54px;");
 		$("#gameModal").css("visibility", "visible");
 			$("li.active a.DLimg").css("visibility","visible");
-	$(".modal").css("overflow","auto");
+	$("section").css("overflow","hidden");
 //    $("#gameModal").attr("style", "visibility:visible; padding-top: 73px; padding-bottom: 54px;");
 });

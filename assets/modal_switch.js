@@ -39,7 +39,8 @@ $("#carousel-close").click(function () {
 $("#instructions-close").click(function () {
     $("#instructions").css("visibility", "hidden");
 		$("#gameModal").css("visibility", "visible");
-		$("li.active a.DLimg").css("visibility","visible");	
+		$("li.active a.DLimg").css("visibility","visible");
+		$("section").css("overflow","hidden");
 //		$(".modal-header").css("visibility","visible");
 });
 

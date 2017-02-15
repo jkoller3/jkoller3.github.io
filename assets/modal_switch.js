@@ -18,6 +18,7 @@ $("#tobedownloaded").click(function (e) {
 $("#introNextBTN").click(function (e) {
     $("#intro").css("visibility", "hidden");
     $("#gameModal").css("visibility", "visible");
+		$("li.active a.DLimg").css("visibility","visible");
 });
 $(".DLimg").click(function (event) { 
 		wallpaper = $(this).parent().find("img").attr("src");
@@ -27,7 +28,8 @@ $(".DLimg").click(function (event) {
 //		$(".modal-close").css("visibility","visible");
 //	alert($("#instructions").text());
 		$("#instructions").css("visibility","visible");
-		$("#instruction").css("overflow","scroll"); //allows scrolling. should be adjusted according to current view.
+		$(".modal").css("overflow","scroll"); //allows scrolling. should be adjusted according to current view.
+		$("li.active a.DLimg").css("visibility","hidden");	
 //    alert("Tap and hold on the image to download the wallpaper!");
 });
 $("#carousel-close").click(function () {
@@ -37,12 +39,13 @@ $("#carousel-close").click(function () {
 $("#instructions-close").click(function () {
     $("#instructions").css("visibility", "hidden");
 		$("#gameModal").css("visibility", "visible");
+		$("li.active a.DLimg").css("visibility","visible");	
 //		$(".modal-header").css("visibility","visible");
 });
 
 $("#gotitBTN").click(function(){
 		$("#instructions").css("visibility","hidden");
-    $("#wallpaperModal").attr("style", "visibility:show; padding-top: 73px; padding-bottom: 54px;");
+    $("#wallpaperModal").attr("style", "visibility:visible; padding-top: 73px; padding-bottom: 54px;");
     $("#tobedownloaded").attr("src", wallpaper);
     incrementScoreVar++; //<- just for readibility.
 });

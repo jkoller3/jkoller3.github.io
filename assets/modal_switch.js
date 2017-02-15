@@ -34,6 +34,7 @@ $(".DLimg").click(function (event) {
 $("#carousel-close").click(function () {
 	$("#gameModal").css("visibility", "hidden");
 	$("#intro").css("visibility", "visible");
+	$("li a.DLimg").css("visibility", "hidden");
 });
 $("#instructions-close").click(function () {
 	$("#instructions").css("visibility", "hidden");

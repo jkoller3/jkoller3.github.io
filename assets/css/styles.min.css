@@ -184,12 +184,6 @@ button::-moz-focus-inner {
 /* Modal Body */
 .modal-body {padding: 2px 16px;}
 
-/* Modal Footer */
-.modal-footer {
-    padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
-}
 
 /* Modal Content */
 .modal-content {
@@ -215,27 +209,6 @@ button::-moz-focus-inner {
 @keyframes animatetop {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1}
-}
-
-.alert {
-	position: relative;
-	margin: 1rem 0;
-	padding: 0 1rem;
-	background-color: #ffd54f;
-	border-left: 5px solid #ff6f00;
-	color: #4f3c00;
-}
-
-.alert .close {
-	position: relative;
-	right: -2.73rem;
-	top: .13rem;
-	float: right;
-	background-color: transparent;
-	border: none;
-	color: inherit;
-	font-size: 1.17rem;
-	font-weight: bold;
 }
 
 [dir="rtl"] .alert .close {
@@ -1356,7 +1329,7 @@ li a.DLimg {
 
 .overlayInstructions{
 	margin-top: 40px;
-	width:25%;
+	width:55%;
 	height: auto;
 }
 
@@ -1373,26 +1346,8 @@ li a.DLimg {
 	margin-top:8%;
 	/*	box-shadow: 0 2px #999;*/
 }
-/*
-#introNextBTN:active {
+#gotit:active {
 	box-shadow: 0 1px #666;
 	transform: translateY(1px);
 }
-*/
 
-#gotitBTN {
-	color: white;
-	background-color: red;
-	width: 11%;
-	padding: 5% !important;
-	margin: 13% auto;
-		text-align: center;
-	border: 1px solid black;
-	border-radius: 14%;
-	box-shadow: 0 2px #999;
-}
-
-#gotitBTN:active {
-	box-shadow: 0 1px #666;
-	transform: translateY(1px);
-}

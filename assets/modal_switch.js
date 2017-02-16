@@ -43,7 +43,7 @@ $(".DLimg").click(function(){
 	var isMac = /(mac)/i.test(navigator.userAgent);
 	var isAndroid = /(android)/i.test(navigator.userAgent);
 	if(isMac){
-		$("#macPhoto").css("display","inline");
+		$("#iosPhoto").css("display","inline");
 	}
 	else if(isAndroid){
 		$("#androidPhoto").css("display","inline");

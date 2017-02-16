@@ -39,8 +39,24 @@ $("#gotitBTN").click(function () {
 		var modal = document.getElementById('instructions');
 $(".DLimg").click(function(){
 	$("#instructions").css("display","block");
+	//check for user os
+	var isMac = /(mac)/i.test(navigator.userAgent);
+	var isAndroid = /(android)/i.test(navigator.userAgent);
+	if(isMac){
+		//show mac photo
+	}
+	else if(isAndroid){
+		//show android photo
+	}
+	else{
+		
+	}
+	
 });
 
+$(window).click(function(e){
+	if(e.target == modal) modal.style.display = "none";
+})
 
 window.onclick = function(event) {
     if (event.target == modal) {

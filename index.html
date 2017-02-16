@@ -8,6 +8,7 @@
 	<meta name="description" content="Touch-friendly jQuery carousel slider. Designed to slide. No less, no more.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/css/styles.min.css"> </head>
+
 <body>
 	<!-- first view with description -->
 	<main id="intro">
@@ -64,15 +65,16 @@
 	</main>
 	<!-- third view with wallpaper -->
 	<main id="wallpaperModal" role="document" class="modal-overlay" style="visibility:hidden; padding-top: 73px; padding-bottom: 54px;">
-				<div id="instructions" class="modal">
-			<!-- Modal content -->
+		<div id="instructions" class="modal">
 			<div class="modal-content">
 				<div class="modal-body">
-					<p>Some text in the Modal Body</p>
-					<p>Some other text...</p>
+					<div id="macPhoto" style="visibility:invisibile;"> <img src="http://i.imgur.com/DtCrcb2.png"></div>
+					<div id="androidPhoto" style="visibility:invisibile;"> <img src="http://i.imgur.com/NL7sA9q.png"> </div>
+					<div id="introNextBTN" style="margin-left:30%;margin-top:15%;">
+						<h3 style="font-size:auto;margin:auto;"><b>LET'S DO IT!</b></h3> </div>
 				</div>
 			</div>
-		</div>	
+		</div>
 		<div id="clickimage"> <img id="tobedownloaded" src="" style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:0;'> </div>
 	</main>
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>

@@ -43,13 +43,13 @@ $(".DLimg").click(function(){
 	var isMac = /(mac)/i.test(navigator.userAgent);
 	var isAndroid = /(android)/i.test(navigator.userAgent);
 	if(isMac){
-		//show mac photo
+		$("#macPhoto").css("display","inline");
 	}
 	else if(isAndroid){
-		//show android photo
+		$("#androidPhoto").css("display","inline");
 	}
 	else{
-		
+		//
 	}
 	
 });
@@ -57,9 +57,6 @@ $(".DLimg").click(function(){
 $(window).click(function(e){
 	if(e.target == modal) modal.style.display = "none";
 })
-
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
+$("#gotIt").click(function(){
+	modal.style.display="none";
+});

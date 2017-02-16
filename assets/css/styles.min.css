@@ -1354,10 +1354,31 @@ li a.DLimg {
 	/*	box-shadow: 0 2px #999;*/
 }
 
+.overlayInstructions{
+	margin-top: 40px;
+	width:25%;
+	height: auto;
+}
+
+#gotIt {
+	color: white;
+	background-color: red;
+	width: 47%;
+	padding: 2.5% !important;
+	margin: 13% auto;
+	text-align: center;
+	/*	border:1px solid black;*/
+	border-radius: 5px;
+	margin-left:24%;
+	margin-top:8%;
+	/*	box-shadow: 0 2px #999;*/
+}
+/*
 #introNextBTN:active {
 	box-shadow: 0 1px #666;
 	transform: translateY(1px);
 }
+*/
 
 #gotitBTN {
 	color: white;
@@ -1365,7 +1386,7 @@ li a.DLimg {
 	width: 11%;
 	padding: 5% !important;
 	margin: 13% auto;
-	/*	text-align: center;*/
+		text-align: center;
 	border: 1px solid black;
 	border-radius: 14%;
 	box-shadow: 0 2px #999;

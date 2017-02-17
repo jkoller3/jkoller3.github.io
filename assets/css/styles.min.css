@@ -3,7 +3,7 @@ An adjusted Glide
 */
 
 html {
-	overflow: scroll;
+/*	overflow: scroll;*/
 }
 
 #caption {
@@ -172,7 +172,7 @@ button::-moz-focus-inner {
 	/* Full width */
 	height: 94%;
 	/* Full height */
-	overflow: auto;
+	overflow: hidden;
 	/* Enable scroll if needed */
 	background-color: rgba(0, 0, 0,0);
 	/* Fallback color */
@@ -1333,7 +1333,7 @@ li a.DLimg {
 }
 
 .overlayInstructions{
-	margin-top: 5px;
+	margin-top: 10px;
 /*	padding-bottom: 15px;*/
 	width:95%;
 	height: auto;

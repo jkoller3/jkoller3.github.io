@@ -1333,8 +1333,8 @@ li a.DLimg {
 }
 
 .overlayInstructions{
-	margin-top: 20px;
-	padding-bottom: 15px;
+	margin-top: 15px;
+/*	padding-bottom: 15px;*/
 	width:95%;
 	height: auto;
 }
@@ -1348,7 +1348,7 @@ li a.DLimg {
 	background-color: red;
 	width: 47%;
 	padding: 2.5% !important;
-	margin: 13% auto;
+	margin: 10% auto;
 	text-align: center;
 	/*	border:1px solid black;*/
 	border-radius: 5px;

@@ -186,7 +186,20 @@ button::-moz-focus-inner {
 /*	padding: 2px 16px;*/
 	background-color: rba(0,0,0,0);
 }
+img{
+	margin: -4px;
+}
 
+ul{
+/*	border-width: 1px 0 1px 0;*/
+	border-style: solid;
+	border-color: black;
+}
+.bg{
+/*	border-width: 0 1px 0 1px;*/
+	border: solid;
+	border-color: black;
+}
 
 /* Modal Content */
 .modal-content {
@@ -990,7 +1003,7 @@ a:hover {
 }
 
 img {
-	margin: 0;
+/*	margin: 0;*/
 	max-width: 100%
 }
 

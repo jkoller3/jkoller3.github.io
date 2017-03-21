@@ -186,20 +186,7 @@ button::-moz-focus-inner {
 /*	padding: 2px 16px;*/
 	background-color: rba(0,0,0,0);
 }
-img{
-	margin: -4px;
-}
 
-ul{
-/*	border-width: 1px 0 1px 0;*/
-	border-style: solid;
-	border-color: black;
-}
-.bg{
-/*	border-width: 0 1px 0 1px;*/
-	border: solid;
-	border-color: black;
-}
 
 /* Modal Content */
 .modal-content {
@@ -592,8 +579,8 @@ img[src*=".svg"] {
 	overflow: hidden;
 	-ms-touch-action: none;
 	touch-action: none;
-	/*background-color: #eeeeee;*/
-	background-image: url("http://www.homedepot.com/catalog/productImages/400/5e/5e89abd9-b418-4e91-8b54-f95463eec64d_400.jpg");
+	
+	background-image: url(../../dark-BG.png);
 	-webkit-overflow-scrolling: touch;
 	-webkit-backface-visibility: hidden;
 	text-align: center;
@@ -1003,7 +990,7 @@ a:hover {
 }
 
 img {
-/*	margin: 0;*/
+	margin: 0;
 	max-width: 100%
 }
 

@@ -4,12 +4,16 @@ html{
 .image{
 	width: 49.5%;
 	display:inline;
+	margin: .5em;
 }
+
 #house{
 /*	display:block;*/
-	width: 75%;
+	width: 80%;
 	margin-left: 15%;
 }
 #bubbles{
-	height: 104.5%;
+width: 80%;
+	height: auto;
+	margin-left: 12.5%;
 }

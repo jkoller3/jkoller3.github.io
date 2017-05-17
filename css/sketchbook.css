@@ -1,0 +1,15 @@
+html{
+	font-family: monospace;
+}
+.image{
+	width: 49.5%;
+	display:inline;
+}
+#house{
+/*	display:block;*/
+	width: 75%;
+	margin-left: 15%;
+}
+#bubbles{
+	height: 104.5%;
+}

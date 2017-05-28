@@ -1,0 +1,1 @@
+(function(){alert("I couldn't worship the god who let her fall apart");})();

@@ -5,6 +5,7 @@ html{
 	width: 49.5%;
 	display:inline;
 	margin: .5em;
+		margin-left: 12.5%;
 }
 
 #house{
@@ -16,4 +17,7 @@ html{
 width: 80%;
 	height: auto;
 	margin-left: 12.5%;
+}
+#zombiepage{
+	background-color:antiquewhite;
 }

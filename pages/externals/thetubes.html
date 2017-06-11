@@ -1,0 +1,39 @@
+<head>
+  <style>
+    #pw {
+      display: none;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id='pw'>
+
+    <a href='https://www.youtube.com/watch?v=NGyk0EN5gMo'>https://www.youtube.com/watch?v=NGyk0EN5gMo</a> <br>
+    <a href='https://www.youtube.com/watch?v=gHKTsg5IGpk'>https://www.youtube.com/watch?v=gHKTsg5IGpk</a> <br>
+
+    <a href='https://www.youtube.com/watch?v=yZID9LDGQKk'>
+https://www.youtube.com/watch?v=yZID9LDGQKk</a><br>
+
+  </div>
+
+  <form name="myForm" onsubmit="return validateForm()">
+    <input type="text" name="fname"> Password Here <br>
+    <input type="submit" value="Enter">
+  </form>
+
+
+  <script>
+    function validateForm() {
+      var x = document.forms["myForm"]["fname"].value;
+      if (x == "skarposar") {
+        document.getElementById("pw").style.color = "blue";
+        document.getElementById("pw").style.display = "block";
+        return false;
+      }
+    }
+
+  </script>
+
+</body>
